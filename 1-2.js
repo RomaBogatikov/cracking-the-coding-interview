@@ -26,4 +26,4 @@ const isPermutation = (str1, str2) => {
 };
 
 
-console.log(isPermutation('abc', 'bcaa'))
+console.log(isPermutation('abc', 'bca'))
