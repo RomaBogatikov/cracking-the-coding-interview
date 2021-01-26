@@ -21,7 +21,7 @@ const oneAway = (string1, string2) => {
 
     j++;
   }
-  return numberMismatches;
+  return numberMismatches === 1;
 }
 
 console.log(oneAway('pales', 'pale'))
