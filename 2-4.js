@@ -102,16 +102,13 @@ class LinkedList {
 const ll1 = new LinkedList();
 
 ll1.insertLast(3)
-ll1.insertLast(25)
-ll1.insertLast(15)
-ll1.insertLast(9)
-ll1.insertLast(2)
-ll1.insertLast(3)
 ll1.insertLast(5)
-ll1.insertLast(11)
-ll1.insertLast(4)
-ll1.insertLast(12)
 ll1.insertLast(8)
+ll1.insertLast(5)
+ll1.insertLast(10)
+ll1.insertLast(2)
+ll1.insertLast(1)
+
 
 let result = ll1.partition(5);
 console.log(result)
